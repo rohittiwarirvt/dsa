@@ -3,18 +3,7 @@ string = "abaxyzzyxf"
 # sample output
 # xyzzyx
 
-# x
-# xy
-# xyz
-# xyzz
-# xyzzy
-# xyzzyx
-
-# y
-# yz
-# yzzy
-# yzzyx
-
+# https://leetcode.com/problems/longest-palindromic-substring/description/
 # O(n^3) time | O(n) space
 def longestPalindromicSubstringS1(string):
   longestSbstr = ""
